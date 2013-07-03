@@ -45,7 +45,7 @@ public class InfectionMap extends InfectionBase {
     private Objective scoreObjective;
     
     private int LockZombieTimer = 0;
-    private long gameDelay = 1000;
+    private long gameDelay = 60000;
     
     public InfectionMap() {
         spawnLocations = new ArrayList<Location>();
