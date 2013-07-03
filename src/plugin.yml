@@ -1,0 +1,17 @@
+name: AlphaZombies
+description: Can you survive the horde?
+main: com.domsplace.InfectionPlugin
+authors: [Dominic]
+website: http://domsplace.com/
+version: 1.00
+load: POSTWORLD
+softdepend: [WorldEdit]
+commands:
+   alphazombies:
+      description: Create a new arena, or relaod the config.
+      aliases: [arena, infection, zombies]
+      usage: /<command> [reload | new]
+      permission: Infection.admin
+permissions:
+   Infection.admin:
+     description: Allows access to the /alphazombies command.
